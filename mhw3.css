@@ -1,0 +1,433 @@
+#scrivi{
+  width: 25vw;
+  position: absolute;
+  top: 15vh;
+  left: 37vw;
+  right: 38vw;
+  z-index: 3;
+  background-color: #e4e4e4;
+  padding-top: 32px;
+  padding-bottom: 16px;
+  padding-left: 48px;
+  padding-right: 48px;
+  box-sizing: border-box;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 20px;
+}
+
+.hidden{
+  display: none;
+}
+
+div[data-x='1']{
+  align-content: center;
+  justify-content: space-around;
+}
+
+#scrivi p{
+  font-family: Fira Sans;
+  line-height: 28px;
+  font-weight: 700;
+  font-size: 24px;
+  padding: 0;
+  margin: 0;
+}
+
+#scrivi button{
+  width: 100%;
+  height: 40px;
+  outline-color: rgb(205,206,208);
+  border-radius: 896px;
+  outline-width: 1px;
+  outline-style:solid;
+  background-color: #2abb98;
+  display: flex;
+  align-items: center;
+  padding: 0px 12px;
+  min-width: 64px;
+  box-sizing: border-box;
+  font-family: rock salt;
+  font-weight: 900;
+}
+
+html {
+    line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  word-wrap: break-word;
+}
+
+body{
+  background-color: #FFDE99FF;
+  padding: 0;
+  border: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  min-height: 100vh;
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+nav{
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  background-color: #FFDE99FF;
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+header{
+  padding: 0;
+  border: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  transition: background-color .3s;
+  width: 100%;
+  align-items: center;
+}
+
+.rock-salt-regular {
+  font-family: "Rock Salt", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header h1{
+  font-family: rock salt;
+  color: #2abb98;
+  font-size: 2em;
+}
+
+header a{
+  width: 60px;
+  display: flex;
+  height: 22px;
+  background-color: #2abb98;
+  font-weight: bold;
+  color: white;
+  padding: 5px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  line-height: 2.2;
+  text-align:center;
+  justify-content: space-around;
+}
+
+section.section1{
+  position: relative;
+  display: flex;
+  background-color: #FFDE99FF;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 450px;
+  margin-left: 24px;
+  margin-right: 48px;
+}
+
+#gif{
+  position: relative;
+  width: 300px;
+  height: 300px;
+
+    object-fit: contain;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    width: 281px;
+    aspect-ratio: auto 281 / 252;
+    height: 252px;
+}
+
+#animazione{
+  
+width: 100%;
+ height: 100%;
+  object-fit: cover;
+
+}
+
+.section1{
+  display: flex;
+}
+
+#indirizzo{
+  background-color:white;
+  width: 20vw;
+  padding: 5px;
+  border-radius: 15px;
+  padding-left: 15px;
+  color:#292929;
+  font-family: serif;
+}
+
+.fira-sans-bold-italic {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.section1 h1{
+  font-family: Fira Sans;
+  width: 33vw;
+  height: 10vh;
+  font-size: 2em;
+}
+
+article.article1{
+  width: 100vw;
+  position:relative;
+  padding-top: 20px;
+  background-color:white;
+  padding-bottom: 40px;
+}
+
+.article1 h1{
+  text-align:center;
+  font-family: Fira Sans;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 2em;
+}
+
+#partners{
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 208px));
+  margin: 12px auto;
+  max-width: calc(1124px + 15%);
+  padding-left: 7.5%;
+  padding-right: 7.5%;
+  width: 100%;
+  gap: 64px 32px;
+  justify-content: center;
+}
+
+#partneritem{
+  height: 208px;
+  width: 208px;
+  border-radius: 88px;
+  background-image: url("https://glovo.dhmedia.io/image/customer-assets-glovo/countries/Stores/zfq6eonfo1uoyib4fset?t=W3siYXV0byI6eyJxIjoibG93In19XQ==");
+  background-size: cover;
+  cursor: pointer;
+  max-width: 208px;
+  position: relative;
+  text-align: center;
+}
+
+#partnername{
+  display:flex;
+  width: 100%;
+  height: 20%;
+  position: absolute;
+  bottom: 0;
+  background-color: #FFDE99FF;
+  border-radius: 30px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-family: Trebuchet MS;
+  font-size: 150%;
+}
+
+#partneritem2{
+  height: 208px;
+  width: 208px;
+  border-radius: 88px;
+  background-image: url("https://glovo.dhmedia.io/image/customer-assets-glovo/countries/Stores/m0io5ana22fevzttxvsh?t=W3siYXV0byI6eyJxIjoibG93In19XQ==");
+  background-size: cover;
+  cursor: pointer;
+  max-width: 208px;
+  position: relative;
+  text-align: center;
+}
+
+#partneritem3{
+  height: 208px;
+  width: 208px;
+  border-radius: 88px;
+  background-image: url("https://glovo.dhmedia.io/image/customer-assets-glovo/countries/Stores/hvpjrukzrzcx2fr7aivr?t=W3siYXV0byI6eyJxIjoibG93In19XQ==");
+  background-size: cover;
+  cursor: pointer;
+  max-width: 208px;
+  position: relative;
+  text-align: center;
+}
+
+#partneritem4{
+  height: 208px;
+  width: 208px;
+  border-radius: 88px;
+  background-image: url("https://glovo.dhmedia.io/image/customer-assets-glovo/countries/Stores/zfpj9hc2khfg5tiaa2xf?t=W3siYXV0byI6eyJxIjoibG93In19XQ==");
+  background-size: cover;
+  cursor: pointer;
+  max-width: 208px;
+  position: relative;
+  text-align: center;
+}
+
+#partneritem5{
+  height: 208px;
+  width: 208px;
+  border-radius: 88px;
+  background-image: url("https://glovo.dhmedia.io/image/customer-assets-glovo/countries/Stores/hwydbavjcknftr7zk7oq?t=W3siYXV0byI6eyJxIjoibG93In19XQ==");
+  background-size: cover;
+  cursor: pointer;
+  max-width: 208px;
+  position: relative;
+  text-align: center;
+}
+
+#partneritem6{
+  height: 208px;
+  width: 208px;
+  border-radius: 88px;
+  background-image: url("https://glovo.dhmedia.io/image/customer-assets-glovo/countries/Stores/pvzosztql1xgwdxykplt?t=W3siYXV0byI6eyJxIjoibG93In19XQ==");
+  background-size: cover;
+  cursor: pointer;
+  max-width: 208px;
+  position: relative;
+  text-align: center;
+}
+
+#partneritem7{
+  height: 208px;
+  width: 208px;
+  border-radius: 88px;
+  background-image: url("https://glovo.dhmedia.io/image/customer-assets-glovo/countries/Stores/f1f6kwpdn6yzraax81jo?t=W3siYXV0byI6eyJxIjoibG93In19XQ==");
+  background-size: cover;
+  cursor: pointer;
+  max-width: 208px;
+  position: relative;
+  text-align: center;
+}
+
+#partneritem8{
+  height: 208px;
+  width: 208px;
+  border-radius: 88px;
+  background-image: url("https://glovo.dhmedia.io/image/customer-assets-glovo/countries/Stores/m0ixhxvsohgdba1lmtwj?t=W3siYXV0byI6eyJxIjoibG93In19XQ==");
+  background-size: cover;
+  cursor: pointer;
+  max-width: 208px;
+  position: relative;
+  text-align: center;
+}
+
+footer{
+  width: 100vw;
+  position: relative;
+  padding-bottom: 100px;
+  padding-left: 125px;
+  padding-right: 125px;
+  background-color: #1D1D1DFF;
+  height: 250px;
+}
+
+footer h2{
+  color:white;
+  font-family: rock salt;
+  margin-top: 40px;
+  font-size: 2em;
+}
+
+#gridfinale{
+  display: grid;
+  grid-auto-columns: minmax(120px, 200px);
+  grid-auto-flow: column;
+  justify-content: space-between;
+  padding: 16px 32px;
+}
+
+#colonna1{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#gridfinale h2{
+  color:white;
+  font-size: 1.5em;
+  font-weight: 700;
+  font-family: Trebuchet MS;
+  line-height: 1.2;
+  margin-bottom: 16px;
+}
+
+
+.lexend-giga{
+  font-family: "Lexend Giga", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 1em;
+  font-style: normal;
+}
+
+#gridfinale a{
+  color: #E4E4E4FF;
+  cursor: pointer;
+  display: block;
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 1.33;
+  margin: 4px 16px;
+  text-decoration: none;
+  font-family: Lexend Giga;
+  width:110%;
+}
+
+.colonna4{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 24px;
+  padding-bottom: 4px;
+  padding-top: 17%;
+}
+
+@media(max-width: 750px){
+  body{
+    font-size: 13px;
+  }
+  section{
+    width: 100vw;
+  }
+  
+  article{
+    width: 100vw;
+  }
+  
+  .section1 h1{
+    font-size:100%;
+  }
+  #partners{
+    grid-template-columns:repeat(2,minmax(0,208px));
+  }
+  #indirizzo{
+    width: 10vw;
+  }
+  
+  footer{
+    padding-left: 5px;
+    width: 100vw;
+  }
+  
+  #gridfinale{
+    display: grid;
+    grid-auto-columns: min-content;
+    grid-auto-flow: column;
+    justify-content: space-around;
+    font-size: 75%;
+    align-content: space-evenly;
+}
+  #gridfinale a{
+    max-width: 70px;
+  }
+}
